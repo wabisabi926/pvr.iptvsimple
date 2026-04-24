@@ -434,7 +434,21 @@ msgctxt "#30077"
 msgid "Ignore Case for EPG Channel IDs"
 msgstr "电子节目指南频道 ID 匹配忽略大小写"
 
-# empty strings from id 30075 to 30099
+#. label-group: General - M3U Startup Check
+msgctxt "#30078"
+msgid "M3U Startup Check"
+msgstr "M3U 启动检测"
+
+#. label: Catchup - connectCheckTimoutSecs
+msgctxt "#30079"
+msgid "Timeout for check"
+msgstr "检测超时时间"
+
+#. label: Catchup - connectCheckIntervalSecs
+msgctxt "#30080"
+msgid "Interval for check"
+msgstr "检测间隔时间"
+# empty strings from id 30081 to 30099
 #. label-category: catchup
 #. label-group: Catchup - Catchup
 msgctxt "#30100"
@@ -639,7 +653,8 @@ msgctxt "#30160"
 msgid "Force all M3U entries to be media"
 msgstr "强制全部 M3U 条目识别为媒体资源"
 
-# empty strings from id 30128 to 30449
+#empty strings from id 30161 to 30449
+
 #. label: TV
 msgctxt "#30450"
 msgid "TV"
@@ -820,7 +835,16 @@ msgctxt "#30627"
 msgid "Ignore Case for EPG Channel IDs, also known as tvg-id's, when matching channels to EPG entries. If disabled, only case senitive matching will be used."
 msgstr "将频道与电子节目指南条目匹配时，忽略电子节目指南频道 ID（也称为 tvg-id）的大小写。如果禁用，则仅使用区分大小写匹配。"
 
-# empty strings from id 30627 to 30639
+#. help: EPG Settings - connectionCheckTimeoutSecs
+msgctxt "#30628"
+msgid "When checking for a valid M3U file, the length of time to wait before timing out the attempt."
+msgstr "检查有效的 M3U 文件时，本次尝试超时前的等待时长。"
+
+#. help: EPG Settings - connectionCheckIntervalSecs
+msgctxt "#30629"
+msgid "When checking for a valid M3U file, the length of time to wait between attempts. Note that a valid file will only be checked for on startup and once a valid file is found all checks stop."
+msgstr "检查有效的 M3U 文件时，多次尝试之间的间隔时长。注意：仅在启动时检查有效文件，找到有效文件后将停止所有检查。"
+# empty strings from id 30630 to 30639
 #. help info - Channel Logos
 #. help-category: Channel Logos
 msgctxt "#30640"
@@ -852,7 +876,8 @@ msgctxt "#30645"
 msgid "If a local path is selected for logos ignore any logos from the M3U file."
 msgstr "如果为台标选择了本地路径则会忽略 M3U 文件中的任何台标。"
 
-# empty strings from id 30645 to 30659
+#empty strings from id 30646 to 30659
+
 #. help info - Genres
 #. help-category: Genres
 msgctxt "#30660"
@@ -983,7 +1008,8 @@ msgctxt "#30710"
 msgid "Adjust the time used for catchup stream URL generation by this value, from -12 hours to +14 hours. Useful for catchup streams which are geo mis-matched to the wrong time. Note that this value can be overridden by values in the M3U file."
 msgstr "按此值调整回看流网址生成时使用的时间（范围：-12 小时至 +14 小时）。适用于因地理位置导致时间不匹配的回看流场景。请注意，此值可被 M3U 文件中的设置覆盖。"
 
-# empty strings from id 30710 to 307019
+#empty strings from id 30711 to 307019
+
 #. help info - Timeshift
 #. help-category: Timeshift
 msgctxt "#30720"
@@ -1083,11 +1109,3 @@ msgstr "选择如何在路径中使用 M3U 组标题。请注意，仅当提供�
 msgctxt "#30806"
 msgid "Force the full playlist to be media, regardless of what tags are present.  Since the introduction of multiple instances for PVR add-ons this option can be useful."
 msgstr "强制将完整播放列表视为媒体资源，无论其中包含何种标签。自从 PVR 插件引入多实例功能后，此选项可能会派上用场。"
-
-#~ msgctxt "#30076"
-#~ msgid "Ignore Case for EPG Channel IDs"
-#~ msgstr "忽略EPG频道ID的大小写"
-
-#~ msgctxt "#30001"
-#~ msgid "Local path (include local network)"
-#~ msgstr "本地路径 (包括本地网络)"
