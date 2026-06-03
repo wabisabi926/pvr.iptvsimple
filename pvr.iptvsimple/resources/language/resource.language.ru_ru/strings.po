@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-05-14 22:25+0000\n"
+"PO-Revision-Date: 2026-06-01 23:16+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-add-ons-pvr-clients/pvr-iptvsimple/ru_ru/>\n"
 "Language: ru_ru\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 msgctxt "Addon Summary"
 msgid "Kodi PVR addon for IPTV support."
@@ -494,7 +494,7 @@ msgstr "Откл."
 #. label-option: Catchup - allChannelsCatchupMode
 msgctxt "#30111"
 msgid "Default"
-msgstr "По-умолчанию"
+msgstr "По умолчанию"
 
 #. label-option: Catchup - allChannelsCatchupMode
 msgctxt "#30112"
@@ -862,7 +862,7 @@ msgstr "Настройки жанров."
 #. help: Genres - useEpgGenreText
 msgctxt "#30661"
 msgid "If enabled, and a genre mapping file is used to get a genre type and sub type use the EPG's genre text (i.e. 'category' text) for the genre instead of the kodi default text."
-msgstr "Если включено, то файл жанров будет использоваться для получения типа жанра и подтипа. Использовать для жанра текст из EPG (т.е. текст 'category') вместо текста по-умолчанию."
+msgstr "Если включено, то файл жанров будет использоваться для получения типа жанра и подтипа. Использовать для жанра текст из EPG (т.е. текст 'category') вместо текста по умолчанию."
 
 #. help: Genres - genresPathType
 msgctxt "#30662"
@@ -919,12 +919,12 @@ msgstr "Использовать этот User-Agent, если он не ука�
 #. help: Advanced - defaultInputstream
 msgctxt "#30687"
 msgid "Use this inputsream as the default if there is not one supplied as a property (KODIPROP) of the channel. Use with care as this will disable any use of the addon's default stream inspection behaviour. Note that for `inputstream.ffmpegdirect` if both `mimetype` and `inputstream.ffmpegdirect.manifest_type` are unset stream inspection will still occur if required."
-msgstr "Использовать этот inputsream по-умолчанию если он не указан как свойство (KODIPROP) канала. Используйте с осторожностью, так как это отключит любые проверки потоков по-умолчанию. Обратите внимание, что для `inputstream.ffmpegdirect`если `mimetype` и `inputstream.ffmpegdirect.manifest_type`не заданы, то проверка потока будет проведена если требуется."
+msgstr "Использовать этот inputsream по умолчанию если он не указан как свойство (KODIPROP) канала. Используйте с осторожностью, так как это отключит любые проверки потоков по умолчанию. Обратите внимание, что для `inputstream.ffmpegdirect`если `mimetype` и `inputstream.ffmpegdirect.manifest_type`не заданы, то проверка потока будет проведена если требуется."
 
 #. help: Advanced - defaultMimeType
 msgctxt "#30688"
 msgid "Use this MIME type as the default if there is not one supplied as a property (KODIPROP) of the channel. Use with care as this will disable any use of the addon's default stream inspection behaviour."
-msgstr "Использовать этот MIME тип по-умолчанию, если он не указан как свойство (KODIPROP) канала. Используете с осторожностью, так как это отключит любые проверки потоков по-умолчанию."
+msgstr "Использовать этот MIME тип по умолчанию, если он не указан как свойство (KODIPROP) канала. Используете с осторожностью, так как это отключит любые проверки потоков по умолчанию."
 
 # empty strings from id 30689 to 30699
 #. help info - Catchup
@@ -951,7 +951,7 @@ msgstr "Число дней, которое доступно для просмо
 #. help: Catchup - allChannelsCatchupMode
 msgctxt "#30704"
 msgid "If enabled it is assumed that channels support catchup using the selected catchup mode while also obeying the override mode. If required the 'Query format string' and 'Catchup window' number of days will come from the addon settings. If this option is disabled then an M3U entry must have at least a 'catchup=' tag to enable catchup. The options for how to build the catch URL are: [B]Disabled[/B] - Do not assume all channel support catchup; [B]Default[/B] - Use catchup source as the full catchup URL, if there is no catchup source use Append mode; [B]Append[/B] - Append the catchup source to the channel URL, if there is no catchup source using the 'Query format string'; [B]Shift (SIPTV)[/B] - Append the standard SIPTV catchup string to the channel URL; [B]Flussonic[/B] - Build a flussonic URL from the channel URL; [B]Xtream codes[/B] - Build an Xtream codes URL from the channel URL."
-msgstr "Если включено, предполагается, что каналы поддерживают архив с использованием выбранного режима. Если требуется, 'Строка формата запроса' и 'Граница архива' в днях будут взяты из настроек дополнения. Если эта опция отключена то, запись M3U должна иметь тег 'catchup=' для включения архива. Варианты как построить ссылку: [B]Выкл.[/B] - предполагается, что не все каналы поддерживают архив. [B]По-умолчанию[/B] - использовать catchup источник как полную ссылку на архив. Если нет, то используете режим Append. [B]Append[/B] - вставить catchup источник в ссылку на канал, если нет источника с использованием 'Строки формата запроса'; [B]Shift (SIPTV)[/B] - вставить стандартную SIPTV строку в ссылку на канал; [B]Flussonic[/B] - сформировать ссылку flussonic для ссылки канала. [B]Xtream коды[/B] - сформировать ссылку с Xtream кодами из ссылки канала."
+msgstr "Если включено, предполагается, что каналы поддерживают архив с использованием выбранного режима. Если требуется, 'Строка формата запроса' и 'Граница архива' в днях будут взяты из настроек дополнения. Если эта опция отключена то, запись M3U должна иметь тег 'catchup=' для включения архива. Варианты как построить ссылку: [B]Откл.[/B] - предполагается, что не все каналы поддерживают архив. [B]По умолчанию[/B] — использовать catchup источник как полную ссылку на архив. Если нет, то используете режим Append. [B]Append[/B] — вставить catchup источник в ссылку на канал, если нет источника с использованием 'Строки формата запроса'; [B]Shift (SIPTV)[/B] — вставить стандартную SIPTV строку в ссылку на канал; [B]Flussonic[/B] — сформировать ссылку flussonic для ссылки канала. [B]Xtream коды[/B] - сформировать ссылку с Xtream кодами из ссылки канала."
 
 #. help: Catchup - catchupPlayEpgAsLive
 msgctxt "#30705"
