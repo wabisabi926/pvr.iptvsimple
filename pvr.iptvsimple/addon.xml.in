@@ -26,7 +26,7 @@
     <summary lang="bg_BG">Добавка за ПВР за поддръжка на IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
     <summary lang="bs_BA">Dodatak Kodi PVR za IPTV podršku.</summary>
     <summary lang="ca_ES">Complement PVR de Kodi per al suport d&apos;IPTV.</summary>
-    <summary lang="cs_CZ">Doplněk Kodi podpory IPTV PVR.</summary>
+    <summary lang="cs_CZ">Doplněk PVR pro podporu IPTV v Kodi.</summary>
     <summary lang="cy_GB">Ychwanegyn recordydd Kodi ar gyfer cefnogi IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
     <summary lang="da_DK">Kodi PVR addon til IPTV support.</summary>
     <summary lang="de_DE">Kodi PVR-Addon für IPTV-Unterstützung.</summary>
@@ -78,7 +78,7 @@
     <description lang="bg_BG">Прост клиент за ПВР за телевизия по Интернет. Поддържа списъци за възпроизвеждане във формат „m3u“, поточно предавана телевизия от източници с излъчване мултикаст и уникаст, слушане на радио канали и електронен програмен справочник.</description>
     <description lang="bs_BA">IPTV Simple PVR klijent podržava m3u liste za reprodukciju, streaming uživo TV-a za multicast/unicast izvore, slušanje radio kanala i EPG.[CR] [CR]Za dokumentaciju posjetite: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md[CR]    </description>
     <description lang="ca_ES">Client senzill per a IPTV PVR compatible amb les llistes de reproducció m3u, transmissions en línia de TV en directe per als orígens difusió única o múltiple, escolta d&apos;emissores de ràdio i guia electrònica de programació (EPG);    </description>
-    <description lang="cs_CZ">Jednoduchý klient PVR pro IPTV podporuje seznamy stop m3u, streamování živého vysílání pro zdroje vícesměrového nebo jednosměrového vysílání, poslech rozhlasových stanic a televizní program.[CR]    [CR]Pro dokumentaci navštivte https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md[CR]    </description>
+    <description lang="cs_CZ">Jednoduchý klient PVR pro IPTV podporuje seznamy M3U, streamování živé TV ze zdrojů multicast/unicast, poslech rádiových kanálů a EPG.[CR]    [CR]Dokumentaci najdete na adrese: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md[CR]    </description>
     <description lang="cy_GB">Mae Cleient IPTV Simple PVR yn cynnal rhestrau m3u, ffrydio Teledu Byw o ffynonellau darlledu eang ac unigol, gwrando ar sianeli Radio ac Amserlen Rhaglenni.</description>
     <description lang="da_DK">IPTV Simple PVR klient understøtter m3u playlister, streaming af direkte tv til multicast-/unicast-kilder, lytning til radiokanaler og EPG.[CR][CR]For dokumentation besøg: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md    </description>
     <description lang="de_DE">IPTV Simple PVR Client unterstützt M3U-Wiedergabelisten, Streaming von Live-TV für Multicast-/Unicastquellen, Radiosender und EPG.    </description>

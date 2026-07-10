@@ -7,23 +7,23 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-07-28 01:37+0000\n"
-"Last-Translator: Ricrdsson1 <h2oh2o@centrum.cz>\n"
+"PO-Revision-Date: 2026-07-06 15:50+0000\n"
+"Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech <https://kodi.weblate.cloud/projects/kodi-add-ons-pvr-clients/pvr-iptvsimple/cs_cz/>\n"
 "Language: cs_cz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.7\n"
 
 msgctxt "Addon Summary"
 msgid "Kodi PVR addon for IPTV support."
-msgstr "Doplněk Kodi podpory IPTV PVR."
+msgstr "Doplněk PVR pro podporu IPTV v Kodi."
 
 msgctxt "Addon Description"
 msgid "IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.[CR]    [CR]For documentation visit: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md[CR]    "
-msgstr "Jednoduchý klient PVR pro IPTV podporuje seznamy stop m3u, streamování živého vysílání pro zdroje vícesměrového nebo jednosměrového vysílání, poslech rozhlasových stanic a televizní program.[CR]    [CR]Pro dokumentaci navštivte https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md[CR]    "
+msgstr "Jednoduchý klient PVR pro IPTV podporuje seznamy M3U, streamování živé TV ze zdrojů multicast/unicast, poslech rádiových kanálů a EPG.[CR]    [CR]Dokumentaci najdete na adrese: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md[CR]    "
 
 msgctxt "Addon Disclaimer"
 msgid "The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects."
@@ -71,22 +71,22 @@ msgstr "Jednou denně"
 #. label-group: General - Providers
 msgctxt "#30006"
 msgid "Providers"
-msgstr ""
+msgstr "Poskytovatelé"
 
 #. label: Channels - defaultProviderName
 msgctxt "#30007"
 msgid "Default provider name"
-msgstr ""
+msgstr "Výchozí název poskytovatele"
 
 #. label: Channels - enableProviderMappings
 msgctxt "#30008"
 msgid "Enable provider mapping"
-msgstr ""
+msgstr "Povolit mapování poskytovatelů"
 
 #. label: Channels - providerMappingFile
 msgctxt "#30009"
 msgid "Provider name mapping file"
-msgstr ""
+msgstr "Soubor mapování názvů poskytovatelů"
 
 #. label-category: general
 #. label-group: General - General
@@ -102,7 +102,7 @@ msgstr "Cesta k seznamu M3U"
 #. label: General - m3uUrl
 msgctxt "#30012"
 msgid "M3U playlist URL"
-msgstr "M3U URL playlistu"
+msgstr "URL seznamu M3U"
 
 #. label: General - startNum
 msgctxt "#30013"
@@ -127,7 +127,7 @@ msgstr "Interval obnovení"
 #. label: General - m3uRefreshHour
 msgctxt "#30017"
 msgid "Refresh hour (24h)"
-msgstr ""
+msgstr "Hodina obnovení (24 h)"
 
 #. label-group: General - Refresh
 msgctxt "#30018"
@@ -137,17 +137,17 @@ msgstr "Obnovení"
 #. label-category: epgsettings
 msgctxt "#30019"
 msgid "EPG Settings"
-msgstr "Nastavení televizního programu"
+msgstr "Nastavení EPG"
 
 #. label-group: EPG Settings - EPG Settings
 msgctxt "#30020"
 msgid "EPG"
-msgstr "Televizní program"
+msgstr "EPG"
 
 #. label: EPG Settings - epgPath
 msgctxt "#30021"
 msgid "XMLTV path"
-msgstr "XMLTV cesta"
+msgstr "Cesta k XMLTV"
 
 #. label: EPG Settings - epgUrl
 msgctxt "#30022"
@@ -157,7 +157,7 @@ msgstr "URL XMLTV"
 #. label: EPG Settings - epgTSOverride
 msgctxt "#30023"
 msgid "Apply time shift to all channels"
-msgstr "Použití časového posunu pro všechny kanály"
+msgstr "Použít časový posun pro všechny kanály"
 
 #. label: EPG Settings - epgTimeShift
 msgctxt "#30024"
@@ -167,33 +167,33 @@ msgstr "Časový posun EPG"
 #. label: General - m3uCache
 msgctxt "#30025"
 msgid "Cache m3u at local storage"
-msgstr "Zapisovat M3U do mezipaměti na místním úložišti"
+msgstr "Ukládat M3U do místní mezipaměti"
 
 #. label: EPG Settings - epgCache
 msgctxt "#30026"
 msgid "Cache XMLTV at local storage"
-msgstr "Zapisovat XMLTV do mezipaměti na místním úložišti"
+msgstr "Ukládat XMLTV do místní mezipaměti"
 
 #. format-label: EPG Settings - epgTimeShift
 msgctxt "#30027"
 msgid "{0:.1f} hours"
-msgstr "{0:.1f} hodin"
+msgstr "{0:.1f} h"
 
 #. label: General - tvChannelGroupsOnly
 msgctxt "#30028"
 msgid "Only load TV channels in groups"
-msgstr "Načítání televizních kanálů pouze ve skupinách"
+msgstr "Načítat pouze TV kanály ve skupinách"
 
 #. label-group: General - TV Groups
 msgctxt "#30029"
 msgid "TV Groups"
-msgstr ""
+msgstr "Skupiny TV"
 
 #. label-category: channellogos
 #. label-group: Channel Logos - Channel Logos
 msgctxt "#30030"
 msgid "Channel Logos"
-msgstr "Televizní skupiny"
+msgstr "Loga kanálů"
 
 #. label: Channel Logos - logoPath
 msgctxt "#30031"
@@ -203,7 +203,7 @@ msgstr "Složka s logy kanálů"
 #. label: Channel Logos - logoBaseUrl
 msgctxt "#30032"
 msgid "Channel logos base URL"
-msgstr "Složka s logy kanálů"
+msgstr "Základní URL log kanálů"
 
 #. label-group: General - Radio Groups
 msgctxt "#30033"
@@ -213,12 +213,12 @@ msgstr "Rádiové skupiny"
 #. label: General - tvGroupMoade
 msgctxt "#30034"
 msgid "TV group mode"
-msgstr ""
+msgstr "Režim skupin TV"
 
 #. label: General - radioGroupMoade
 msgctxt "#30035"
 msgid "Radio group mode"
-msgstr "Režim skupiny TV"
+msgstr "Režim skupin rádia"
 
 #. label-option: Channels - tvGroupmode
 #. label-option: Channels - radioGroupGode
@@ -241,7 +241,7 @@ msgstr "Vlastní skupiny"
 #. label: Channels - numTvGroups
 msgctxt "#30039"
 msgid "Number of TV groups"
-msgstr "Počet TV skupin"
+msgstr "Počet skupin TV"
 
 #. label-group: Channel Logos - XMLTV Logos Options
 msgctxt "#30040"
@@ -251,7 +251,7 @@ msgstr "Možnosti log XMLTV"
 #. label: Channel Logos - logoFromEpg
 msgctxt "#30041"
 msgid "Channels logos from XMLTV"
-msgstr "Loga pro kanaly z XMLTV"
+msgstr "Loga kanálů z XMLTV"
 
 #. label-option: Channel Logos - logoFromEpg
 msgctxt "#30042"
@@ -307,7 +307,7 @@ msgstr "Použití textu žánru z XMLTV při mapování žánrů"
 #. label: Genres - genresPath
 msgctxt "#30052"
 msgid "Genres path"
-msgstr "Cesta žánrů"
+msgstr "Cesta k žánrům"
 
 #. label: Genres - genresUrl
 msgctxt "#30053"
@@ -352,22 +352,22 @@ msgstr "Rozšířené"
 #. label-group: Advanced - Multicast relay
 msgctxt "#30061"
 msgid "Multicast relay (udpxy)"
-msgstr ""
+msgstr "Multicastové relé (udpxy)"
 
 #. label: Advanced - transformMulticastStreamUrls
 msgctxt "#30062"
 msgid "Transform multicast stream URLs"
-msgstr ""
+msgstr "Transformovat URL multicastových streamů"
 
 #. label: Advanced - udpxyHost
 msgctxt "#30063"
 msgid "Relay hostname or IP address"
-msgstr ""
+msgstr "Název hostitele nebo IP adresa relé"
 
 #. label: Advanced - udpxyPort
 msgctxt "#30064"
 msgid "Relay port"
-msgstr ""
+msgstr "Port relé"
 
 #. label-group: Advanced - Streaming
 msgctxt "#30065"
@@ -377,32 +377,32 @@ msgstr "Streamování"
 #. label: Advanced - useInputstreamAdaptiveforHls
 msgctxt "#30066"
 msgid "Use inputstream.adaptive for m3u8 (HLS) streams"
-msgstr "Použití inputstream.adaptive pro streamy m3u8 (HLS)"
+msgstr "Použít inputstream.adaptive pro streamy m3u8 (HLS)"
 
 #. label: Advanced - useFFmpegReconnect
 msgctxt "#30067"
 msgid "Use FFmpeg http reconnect options if possible"
-msgstr "Pokud je to možné, použijte možnosti FFmpeg http reconnect"
+msgstr "Pokud je to možné, použít možnosti FFmpeg pro opětovné připojení HTTP"
 
 #. label: Advanced - defaultUserAgent
 msgctxt "#30068"
 msgid "User-Agent"
-msgstr ""
+msgstr "User-Agent"
 
 #. label: Advanced - defaultInputstream
 msgctxt "#30069"
 msgid "Inputstream name"
-msgstr "Název vstupního streamu"
+msgstr "Název Inputstream"
 
 #. label: Advanced - defaultMimeType
 msgctxt "#30070"
 msgid "MIME type"
-msgstr ""
+msgstr "Typ MIME"
 
 #. label-group: Advanced - Channel defaults
 msgctxt "#30071"
 msgid "Channel defaults"
-msgstr "Výchozí nastavení kanálu"
+msgstr "Výchozí hodnoty kanálů"
 
 #. label: General - numRadioGroups
 msgctxt "#30072"
@@ -412,39 +412,39 @@ msgstr "Počet rádiových skupin"
 #. label: Channels - customRadioGroupsFile
 msgctxt "#30073"
 msgid "Custom Radio groups file"
-msgstr "Soubor vlastních rádiovch skupin"
+msgstr "Soubor vlastních skupin rádia"
 
 #. label: General - radioChannelGroupsOnly
 msgctxt "#30074"
 msgid "Only load Radio channels in groups"
-msgstr "Rádiové kanály načítejte pouze ve skupinách"
+msgstr "Načítat pouze rádiové kanály ve skupinách"
 
 #. help: Channel Logos - useLogosLocalPathOnly
 msgctxt "#30075"
 msgid "For local logos path ignore M3U logos"
-msgstr "Při cestě k místním logům ignorujte loga M3U"
+msgstr "U místní cesty k logům ignorovat loga z M3U"
 
 #. label-category: Groups
 msgctxt "#30076"
 msgid "Groups"
-msgstr ""
+msgstr "Skupiny"
 
 #. label: EPG Settings - epgIgnoreCaseForChannelIds
 msgctxt "#30077"
 msgid "Ignore Case for EPG Channel IDs"
-msgstr ""
+msgstr "Ignorovat velikost písmen u ID kanálů EPG"
 
 # empty strings from id 30075 to 30099
 #. label-category: catchup
 #. label-group: Catchup - Catchup
 msgctxt "#30100"
 msgid "Catchup"
-msgstr ""
+msgstr "Zpětné zhlédnutí"
 
 #. label: Catchup - enableCatchup
 msgctxt "#30101"
 msgid "Enable catchup"
-msgstr "Povolení catchup"
+msgstr "Povolit zpětné zhlédnutí"
 
 #. label: Catchup - catchupQueryFormat
 msgctxt "#30102"
@@ -454,37 +454,37 @@ msgstr "Formátovací řetězec dotazu"
 #. label: Catchup - catchupDays
 msgctxt "#30103"
 msgid "Catchup window"
-msgstr "Okno catchup"
+msgstr "Období zpětného zhlédnutí"
 
 #. label: Catchup - allChannelsCatchupMode
 msgctxt "#30104"
 msgid "Channels support catchup using mode"
-msgstr "Kanály podporují režim catchup"
+msgstr "Režim podpory zpětného zhlédnutí u kanálů"
 
 #. label-group: Catchup - Watch From EPG
 msgctxt "#30105"
 msgid "Watch From EPG"
-msgstr "Sledování z EPG"
+msgstr "Sledovat z EPG"
 
 #. label: Catchup - catchupPlayEpgAsLive
 msgctxt "#30106"
 msgid "Play from EPG in Live TV mode (using timeshift)"
-msgstr "Přehrávání z EPG v režimu Live TV (pomocí timeshift)"
+msgstr "Přehrávat z EPG v režimu živé TV (pomocí časového posunu)"
 
 #. label: Catchup - catchupWatchEpgBeginBuffer
 msgctxt "#30107"
 msgid "Buffer before program start"
-msgstr "Vyrovnávací paměť před spuštěním programu"
+msgstr "Rezerva před začátkem pořadu"
 
 #. label: Catchup - catchupWatchEpgEndBuffer
 msgctxt "#30108"
 msgid "Buffer after program end"
-msgstr "Vyrovnávací paměť po ukončení programu"
+msgstr "Rezerva po konci pořadu"
 
 #. label: Catchup - catchupOnlyOnFinishedProgrammes
 msgctxt "#30109"
 msgid "Catchup only available on finished programmes"
-msgstr "Catchup je k dispozici pouze u pořadu které již"
+msgstr "Zpětné zhlédnutí je dostupné pouze u skončených pořadů"
 
 #. label-option: Catchup - allChannelsCatchupMode
 msgctxt "#30110"
@@ -499,22 +499,22 @@ msgstr "Výchozí"
 #. label-option: Catchup - allChannelsCatchupMode
 msgctxt "#30112"
 msgid "Append"
-msgstr "Přidat"
+msgstr "Připojit"
 
 #. label-option: Catchup - allChannelsCatchupMode
 msgctxt "#30113"
 msgid "Shift (SIPTV)"
-msgstr ""
+msgstr "Posun (SIPTV)"
 
 #. label-option: Catchup - allChannelsCatchupMode
 msgctxt "#30114"
 msgid "Flussonic"
-msgstr ""
+msgstr "Flussonic"
 
 #. label-option: Catchup - allChannelsCatchupMode
 msgctxt "#30115"
 msgid "Xtream codes"
-msgstr ""
+msgstr "Xtream Codes"
 
 #. label: Catchup - catchupOverrideMode
 msgctxt "#30116"
@@ -524,17 +524,17 @@ msgstr "Zahrnout kanály"
 #. label-option: Catchup - catchupOverrideMode
 msgctxt "#30117"
 msgid "without catchup mode"
-msgstr "bez catchup režimu"
+msgstr "bez režimu zpětného zhlédnutí"
 
 #. label-option: Catchup - catchupOverrideMode
 msgctxt "#30118"
 msgid "with catchup mode"
-msgstr "s catchup režimem"
+msgstr "s režimem zpětného zhlédnutí"
 
 #. label-option: Catchup - catchupOverrideMode
 msgctxt "#30119"
 msgid "with and without catchup mode (all channels)"
-msgstr "s režimem catchup a bez něj (všechny kanály)"
+msgstr "s režimem zpětného zhlédnutí i bez něj (všechny kanály)"
 
 #. label-category: timeshift
 #. label-group: Timeshift - Timeshift
@@ -550,12 +550,12 @@ msgstr "Povolit časový posun"
 #. label: Timeshift - timeshiftEnabledHttp
 msgctxt "#30122"
 msgid "Enable timeshift for HTTP based streams"
-msgstr "Povolit timeshift pro streamy založené na protokolu HTTP"
+msgstr "Povolit časový posun pro streamy založené na HTTP"
 
 #. label: Timeshift - timeshiftFFmpegdirectSettings
 msgctxt "#30123"
 msgid "- Modify inputstream.ffmpegdirect settings..."
-msgstr "- Úprava nastavení inputstream.ffmpegdirect..."
+msgstr "- Upravit nastavení inputstream.ffmpegdirect..."
 
 #. label-group: Timeshift - Inputstream Settings
 msgctxt "#30124"
@@ -565,59 +565,59 @@ msgstr "Nastavení Inputstream"
 #. label: Timeshift - timeshiftCustom
 msgctxt "#30125"
 msgid "Always enable timeshift stream mode if missing"
-msgstr "Vždy povolit režim timeshift stream, pokud chybí"
+msgstr "Vždy povolit režim streamu s časovým posunem, pokud chybí"
 
 #. label: Timeshift - timeshiftEnabledAll
 msgctxt "#30126"
 msgid "Enable timeshift for all streams"
-msgstr "Povolit timeshift pro všechny streamy"
+msgstr "Povolit časový posun pro všechny streamy"
 
 #. label: Timeshift - timeshiftEnabledUdp
 msgctxt "#30127"
 msgid "Enable timeshift for UDP based streams"
-msgstr "Povolit timeshift pro streamy založené na UDP"
+msgstr "Povolit časový posun pro streamy založené na UDP"
 
 #. label-option: Catchup - catchupCorrection
 msgctxt "#30128"
 msgid "Catchup correction"
-msgstr "Catchup korekce"
+msgstr "Korekce zpětného zhlédnutí"
 
 # empty strings from id 30129 to 30449
 #. category-lavel: Media
 #. group-label: Media - Media
 msgctxt "#30150"
 msgid "Media"
-msgstr ""
+msgstr "Média"
 
 #. label: Media - mediaGroupByTitle
 msgctxt "#30151"
 msgid "Group entries by title"
-msgstr ""
+msgstr "Seskupovat položky podle názvu"
 
 #. label: Media - mediaGroupBySeason
 msgctxt "#30152"
 msgid "Group entries by season"
-msgstr ""
+msgstr "Seskupovat položky podle sezóny"
 
 #. label: Media - mediaBySeasonEpisode
 msgctxt "#30153"
 msgid "Include season and episode number in title"
-msgstr ""
+msgstr "Zahrnout do názvu číslo sezóny a epizody"
 
 #. label: Media - mediaVODAsRecordings
 msgctxt "#30154"
 msgid "Include VODs as media"
-msgstr ""
+msgstr "Zahrnout VOD jako média"
 
 #. label: Media - mediaEnabled
 msgctxt "#30155"
 msgid "Show Media as recordings"
-msgstr ""
+msgstr "Zobrazovat média jako nahrávky"
 
 #. label: Media - mediaUseM3UGroupForGrouping
 msgctxt "#30156"
 msgid "Use M3U Group name in path"
-msgstr ""
+msgstr "Použít název skupiny M3U v cestě"
 
 #. label-option: Media - mediaEnabled - IGNORE_GROUP_NAME
 msgctxt "#30157"
@@ -627,17 +627,17 @@ msgstr "Nikdy"
 #. label-option: Media - mediaEnabled - ALWAYS_APPEND
 msgctxt "#30158"
 msgid "Always append"
-msgstr ""
+msgstr "Vždy připojit"
 
 #. label-option: Media - mediaEnabled - ONLY_IF_EMPTY
 msgctxt "#30159"
 msgid "When no media-dir is present"
-msgstr ""
+msgstr "Když není uveden atribut media-dir"
 
 #. label: Media - mediaForcePlaylist
 msgctxt "#30160"
 msgid "Force all M3U entries to be media"
-msgstr ""
+msgstr "Považovat všechny položky M3U za média"
 
 # empty strings from id 30128 to 30449
 #. label: TV
@@ -699,27 +699,27 @@ msgstr "Pokud je umístění [B]Vzdálená cesta[/B], vyberte, zda se má soubor
 #. help: General - startNum
 msgctxt "#30605"
 msgid "The number to start numbering channels from. Only used when [B]Use backend channel numbers[/B] from PVR settings is enabled and a channel number is not supplied in the M3U file."
-msgstr "Číslo, od kterého se začne číslovat kanál. Používá se pouze v případě, že je povoleno [B]Použít čísla kanálů z nastavení PVR a v souboru M3U není uvedeno číslo kanálu.[/B]"
+msgstr "Číslo, od kterého se začne číslovat kanály. Používá se pouze v případě, že je v nastavení PVR povoleno [B]Použít čísla kanálů z backendu[/B] a v souboru M3U není uvedeno číslo kanálu."
 
 #. help: General - numberByOrder
 msgctxt "#30606"
 msgid "Ignore any 'tvg-chno' tags and only number channels by the order in the M3U starting at 'Start channel number'."
-msgstr "Ignorujte všechny značky 'tvg-chno' a číslujte kanály pouze podle pořadí v M3U počínaje 'Číslo počátečního kanálu'."
+msgstr "Ignoruje všechny značky „tvg-chno“ a čísluje kanály pouze podle pořadí v M3U, počínaje hodnotou „Číslo počátečního kanálu“."
 
 #. help: General - m3uRefreshMode
 msgctxt "#30607"
 msgid "Select the auto refresh mode for the M3U/XMLTV files. Note that caching is disabled if auto refresh is used. The options are: [B]Disabled[/B] - Don't auto refresh the files; [B]Repeated refresh[/B] - Refresh the files on a minute based interval; [B]Once per day[/B] - Refresh the files once per day."
-msgstr ""
+msgstr "Vybere režim automatického obnovování souborů M3U/XMLTV. Pokud se používá automatické obnovování, ukládání do mezipaměti je vypnuté. Možnosti jsou: [B]Zakázáno[/B] - soubory se nebudou automaticky obnovovat; [B]Opakované obnovování[/B] - soubory se budou obnovovat v intervalu zadaném v minutách; [B]Jednou denně[/B] - soubory se budou obnovovat jednou denně."
 
 #. help: General - m3uRefreshIntervalMins
 msgctxt "#30608"
 msgid "If M3U auto refresh mode is [B]Repeated refresh[/B] refresh the files every time this number of minutes passes. Max 120 minutes."
-msgstr ""
+msgstr "Pokud je režim automatického obnovování M3U nastaven na [B]Opakované obnovování[/B], soubory se obnoví vždy po uplynutí tohoto počtu minut. Maximum je 120 minut."
 
 #. help: General - m3uRefreshHour
 msgctxt "#30609"
 msgid "If auto refresh mode is [B]Once per day[/B] refresh the files every time this hour of the day is reached."
-msgstr "Pokud je nastaven režim automatické aktualizace [B]Jednou denně[/B], aktualizujte soubory vždy, když je dosaženo této hodiny dne."
+msgstr "Pokud je režim automatického obnovování nastaven na [B]Jednou denně[/B], soubory se obnoví vždy při dosažení této hodiny dne."
 
 #. help: General - tvChannelGroupsOnly
 msgctxt "#30610"
@@ -729,7 +729,7 @@ msgstr "Ze souboru M3U se načtou pouze televizní kanály, které patří do sk
 #. help: Channels - tvGroupMode
 msgctxt "#30611"
 msgid "Choose from one of the following three modes: [B]All groups[/B] Load all TV groups from the M3U file; [B]Some groups[/B] Only load the groups specified in the next options; [B]Custom groups[/B] Load a set of groups from the M3U file whose names are loaded from an XML file."
-msgstr "Vyberte si jeden z následujících tří režimů: [B]Všechny skupiny[/B] Načte všechny televizní skupiny ze souboru M3U; [B]Některé skupiny[/B] Načte pouze skupiny uvedené v dalších možnostech; [B]Vlastní skupiny[/B] Načte sadu skupin ze souboru M3U, jejichž názvy jsou načteny ze souboru XML."
+msgstr "Vybere jeden z následujících tří režimů: [B]Všechny skupiny[/B] - načtou se všechny skupiny TV ze souboru M3U; [B]Některé skupiny[/B] - načtou se pouze skupiny uvedené v následujících volbách; [B]Vlastní skupiny[/B] - načte se sada skupin ze souboru M3U, jejichž názvy jsou načteny ze souboru XML."
 
 #. help: Channels - oneTvGroup
 #. help: Channels - twoTvGroup
@@ -738,12 +738,12 @@ msgstr "Vyberte si jeden z následujících tří režimů: [B]Všechny skupiny[
 #. help: Channels - fiveTvGroup
 msgctxt "#30612"
 msgid "If the previous option has been has been set to 'Some groups' you need to specify a TV group to be loaded from the M3U file. Please note that this is the group name as shown in the group-title attribute (i.e. 'UK (TV)'). This setting is case-sensitive."
-msgstr "Pokud byla předchozí možnost nastavena na 'Některé skupiny', je třeba zadat televizní skupinu, která se má načíst ze souboru M3U. Upozorňujeme, že se jedná o název skupiny uvedený v atributu group-title (tj. 'UK (TV)'). Při tomto nastavení se rozlišují velká a malá písmena."
+msgstr "Pokud je předchozí volba nastavena na „Některé skupiny“, je třeba zadat skupinu TV, která se má načíst ze souboru M3U. Upozorňujeme, že jde o název skupiny uvedený v atributu group-title (např. „UK (TV)“). Toto nastavení rozlišuje velikost písmen."
 
 #. help: Channels - radioGroupMode
 msgctxt "#30613"
 msgid "Choose from one of the following three modes: [B]All groups[/B] Load all Radio groups from the M3U file[/B]; [B]Some groups[/B] Only load the groups specified in the next options; [B]Custom groups[/B] Load a set of groups from the M3U file whose names are loaded from an XML file."
-msgstr "Vyberte si jeden z následujících tří režimů: [B]Všechny skupiny[/B] Načtení všech rádiových skupin ze souboru M3U[/B]; [B]Některé skupiny[/B] Načtení pouze skupin uvedených v dalších možnostech; [B]Vlastní skupiny[/B] Načtení sady skupin ze souboru M3U, jejichž názvy jsou načteny ze souboru XML."
+msgstr "Vybere jeden z následujících tří režimů: [B]Všechny skupiny[/B] - načtou se všechny skupiny rádia ze souboru M3U; [B]Některé skupiny[/B] - načtou se pouze skupiny uvedené v následujících volbách; [B]Vlastní skupiny[/B] - načte se sada skupin ze souboru M3U, jejichž názvy jsou načteny ze souboru XML."
 
 #. help: Channels - oneRadioGroup
 #. help: Channels - twoRadioGroup
@@ -752,12 +752,12 @@ msgstr "Vyberte si jeden z následujících tří režimů: [B]Všechny skupiny[
 #. help: Channels - fiveRadioGroup
 msgctxt "#30614"
 msgid "If the previous option has been has been set to 'Some groups' you need to specify a Radio group to be fetched from the M3U file. Please not that this is the group name as shown on the group-title attribute (i.e. 'UK (Radio)'). This setting is case-sensitive."
-msgstr "Pokud byla předchozí možnost nastavena na 'Některé skupiny', je třeba zadat skupinu rádia, která se má načíst ze souboru M3U. Nezapomeňte, že se jedná o název skupiny uvedený v atributu group-title (tj. 'UK (Radio)'). Při tomto nastavení se rozlišují velká a malá písmena."
+msgstr "Pokud je předchozí volba nastavena na „Některé skupiny“, je třeba zadat skupinu rádia, která se má načíst ze souboru M3U. Upozorňujeme, že jde o název skupiny uvedený v atributu group-title (např. „UK (Radio)“). Toto nastavení rozlišuje velikost písmen."
 
 #. help: Channels - customTvGroupsFile
 msgctxt "#30615"
 msgid "The file used to load the custom TV groups. The default file is `customTVGroups-example.xml`."
-msgstr "Soubor použitý k načtení vlastních televizních skupin. Výchozí soubor je `customTVGroups-example.xml`."
+msgstr "Soubor použitý k načtení vlastních skupin rádia. Výchozí soubor je „customRadioGroups-example.xml“."
 
 #. help: Channels - customRadioGroupsFile
 msgctxt "#30616"
@@ -767,12 +767,12 @@ msgstr "Soubor použitý k načtení vlastních skupin rádií. Výchozí soubor
 #. help: Channels - numTvGroups
 msgctxt "#30617"
 msgid "The number of TV groups to load when `Some groups` is the selected mode. Up to 5 can be chosen. If more than 5 are required the 'Custom groups' mode should be used instead."
-msgstr "Počet televizních skupin, které se načtou, když je zvolen režim `Několik skupin`. Lze zvolit až 5 skupin. Pokud je požadováno více než 5, měl by být místo toho použit režim `Vlastní skupiny`."
+msgstr "Počet skupin TV, které se načtou, když je vybrán režim `Některé skupiny `. Lze vybrat až pět skupin. Pokud je potřeba více než pět skupin, měl by se místo toho použít režim „Vlastní skupiny“."
 
 #. help: Channels - numRadioGroups
 msgctxt "#30618"
 msgid "The number of Radio groups to load when `Some groups` is the selected mode. Up to 5 can be chosen. If more than 5 are required the 'Custom groups'  mode should be used instead."
-msgstr "Počet rádiových skupin, které se načtou, když je zvolen režim `Několik skupin`. Lze zvolit až 5 skupin. Pokud je požadováno více než 5, měl by být místo toho použit režim `Vlastní skupiny`."
+msgstr "Počet skupin rádia, které se načtou, když je vybrán režim `Některé skupiny`. Lze vybrat až pět skupin. Pokud je potřeba více než pět skupin, měl by se místo toho použít režim „Vlastní skupiny“."
 
 #. help: General - radioChannelGroupsOnly
 msgctxt "#30619"
@@ -783,7 +783,7 @@ msgstr "Ze souboru M3U se načtou pouze rádiové kanály, které patří do sku
 #. help-category: EPG Settings
 msgctxt "#30620"
 msgid "Settings related to the EPG. Note that Kodi will only load the EPG data when it needs to. The add-on will force a load of the EPG data regardless of whether or not Kodi requests it if either catchup is enabled or XMLTV logos are required."
-msgstr "Nastavení související s EPG. Všimněte si, že Kodi načte data EPG pouze v případě potřeby. Doplněk vynutí načtení dat EPG bez ohledu na to, zda si je Kodi vyžádá, pokud je zapnuto zachytávání nebo jsou vyžadována loga XMLTV."
+msgstr "Nastavení související s EPG. Kodi načte data EPG pouze v případě potřeby. Pokud je povoleno zpětné zhlédnutí nebo jsou vyžadována loga XMLTV, doplněk vynutí načtení dat EPG bez ohledu na to, zda si je Kodi vyžádá."
 
 #. help: EPG Settings - epgPathType
 msgctxt "#30621"
@@ -808,17 +808,17 @@ msgstr "Pokud je umístění [B]Vzdálená cesta[/B], vyberte, zda se má soubor
 #. help: EPG Settings - epgTimeShift
 msgctxt "#30625"
 msgid "Adjust the EPG times by this value, from -12 hours to +14 hours."
-msgstr "O tuto hodnotu upravte časy EPG v rozmezí od -12 hodin do +14 hodin."
+msgstr "Upraví časy EPG o tuto hodnotu v rozsahu od -12 do +14 hodin."
 
 #. help: EPG Settings - epgTSOverside
 msgctxt "#30626"
 msgid "Whether or not to override the time shift for all channels with `EPG time shift`. If not enabled `EPG time shift` plus the individual time shift per channel (if available) will be used."
-msgstr "Zda má být časový posun pro všechny kanály přepsán pomocí `EPG time shift`. Pokud není povoleno, použije se `EPG time shift` plus individuální časový posun pro každý kanál (pokud je k dispozici)."
+msgstr "Určuje, zda se má časový posun pro všechny kanály přepsat hodnotou `Časový posun EPG`. Pokud není povoleno, použije se hodnota `Časový posun EPG` a individuální časový posun pro daný kanál (pokud je k dispozici)."
 
 #. help: EPG Settings - epgIgnoreCaseForChannelIds
 msgctxt "#30627"
 msgid "Ignore Case for EPG Channel IDs, also known as tvg-id's, when matching channels to EPG entries. If disabled, only case senitive matching will be used."
-msgstr ""
+msgstr "Ignoruje velikost písmen u ID kanálů EPG, známých také jako tvg-id, při párování kanálů s položkami EPG. Pokud je vypnuto, použije se pouze párování s rozlišením velikosti písmen."
 
 # empty strings from id 30627 to 30639
 #. help info - Channel Logos
@@ -840,17 +840,17 @@ msgstr "Pokud je umístění [B]Místní cesta[/B], mělo by toto nastavení obs
 #. help: Channel Logos - logoBaseUrl
 msgctxt "#30643"
 msgid "If location is [B]Remote Path[/B] this setting should contain a valid base URL."
-msgstr "Pokud je umístění [B]Vzdálená cesta[/B], mělo by toto nastavení obsahovat platnou adresu URL."
+msgstr "Pokud je umístění [B]Vzdálená cesta[/B], mělo by toto nastavení obsahovat platnou základní URL."
 
 #. help: Channel Logos - logoFromEpg
 msgctxt "#30644"
 msgid "Preference on how to handle channel logos. The options are: [B]Ignore[/B] - Don't use channel logos from an XMLTV file; [B]Prefer M3U[/B] - Use the channel logo from the M3U if available otherwise use the XMLTV logo; [B]Prefer XMLTV[/B] - Use the channel logo from the XMLTV file if available otherwise use the M3U logo."
-msgstr "Předvolba způsobu zpracování loga kanálu. Možnosti jsou následující: [B]Ignorovat[/B] - Nepoužívat logo kanálu ze souboru XMLTV; [B]Preferovat M3U[/B] - Použít logo kanálu ze souboru M3U, pokud je k dispozici, jinak použít logo XMLTV; [B]Preferovat XMLTV[/B] - Použít logo kanálu ze souboru XMLTV, pokud je k dispozici, jinak použít logo M3U."
+msgstr "Předvolba způsobu zpracování log kanálů. Možnosti jsou: [B]Ignorovat[/B] - nepoužívat loga kanálů ze souboru XMLTV; [B]Upřednostnit M3U[/B] - použít logo kanálu z M3U, pokud je k dispozici, jinak použít logo z XMLTV; [B]Upřednostnit XMLTV[/B] - použít logo kanálu ze souboru XMLTV, pokud je k dispozici, jinak použít logo z M3U."
 
 #. help: Channel Logos - useLogosLocalPathOnly
 msgctxt "#30645"
 msgid "If a local path is selected for logos ignore any logos from the M3U file."
-msgstr "Pokud je pro loga vybrána místní cesta, ignorujte všechna loga ze souboru M3U."
+msgstr "Pokud je pro loga vybrána místní cesta, ignorují se všechna loga ze souboru M3U."
 
 # empty strings from id 30645 to 30659
 #. help info - Genres
@@ -862,12 +862,12 @@ msgstr "Nastavení týkající se žánrů."
 #. help: Genres - useEpgGenreText
 msgctxt "#30661"
 msgid "If enabled, and a genre mapping file is used to get a genre type and sub type use the EPG's genre text (i.e. 'category' text) for the genre instead of the kodi default text."
-msgstr "Pokud je povoleno a k získání typu a podtypu žánru je použit soubor mapování žánru, použijte pro žánr text EPG (tj. text 'kategorie') namísto výchozího textu Kodi."
+msgstr "Pokud je povoleno a k získání typu a podtypu žánru se používá soubor mapování žánrů, použije se pro žánr text žánru z EPG (tj. text category) místo výchozího textu Kodi."
 
 #. help: Genres - genresPathType
 msgctxt "#30662"
 msgid "Select where to find the genres XML resource. The options are: [B]Local path[/B] - A path to a genres XML file whether it be on the device or the local network; [B]Remote path[/B] - A URL specifying the location of the genres XML file."
-msgstr "Vyberte, kde se má zdroj XML žánrů nacházet. Na výběr jsou tyto možnosti: [B]Místní cesta[/B] - Cesta k souboru XML žánrů, ať už v zařízení nebo v místní síti; [B]Vzdálená cesta[/B] - Adresa URL určující umístění souboru XML žánrů."
+msgstr "Vybere, kde se má najít XML zdroj žánrů. Možnosti jsou: [B]Místní cesta[/B] - cesta k XML souboru žánrů v zařízení nebo v místní síti; [B]Vzdálená cesta[/B] - URL určující umístění XML souboru žánrů."
 
 #. help: Genres - genresPath
 msgctxt "#30663"
@@ -884,32 +884,32 @@ msgstr "Pokud je umístění [B]Vzdálená cesta[/B], mělo by toto nastavení o
 #. help-category: Advanced
 msgctxt "#30680"
 msgid "Advanced settings including multicast relays, streaming properties etc."
-msgstr "Pokročilá nastavení včetně přenosů vícesměrového vysílání, vlastností streamování atd."
+msgstr "Pokročilá nastavení včetně multicastových relé, vlastností streamování atd."
 
 #. help: Advanced - transformMulticastStreamUrls
 msgctxt "#30681"
 msgid "Multicast (UDP/RTP) streams do not work well on Wifi networks. A multicast relay can convert the stream from UDP/RTP multicast to HTTP. Enabling this option will transform multicast stream URLs from the M3U file to HTTP addresses so they can be accesssed via a 'udpxy' relay on the local network. E.g. a UDP multicast stream URL like 'udp://@239.239.3.38:5239' would get transformed to something like 'http://192.168.1.1:4000/udp/239.239.3.38:5239'."
-msgstr "Vícesměrové (UDP/RTP) datové proudy nefungují dobře v sítích Wifi. Multicast relay může převést stream z UDP/RTP multicast na HTTP. Povolením této možnosti se adresy URL vícesměrového vysílání ze souboru M3U převedou na adresy HTTP, aby k nim bylo možné přistupovat prostřednictvím relé 'udpxy' v místní síti. Např. adresa URL vícesměrového vysílání UDP jako 'udp://@239.239.3.38:5239' bude transformována na něco jako 'http://192.168.1.1:4000/udp/239.239.3.38:5239'."
+msgstr "Multicastové streamy (UDP/RTP) nefungují dobře v sítích Wi-Fi. Multicastové relé může převést stream z UDP/RTP multicastu na HTTP. Povolením této volby se URL multicastových streamů ze souboru M3U převedou na adresy HTTP, aby k nim bylo možné přistupovat prostřednictvím relé udpxy v místní síti. Například URL multicastového streamu UDP jako udp://@239.239.3.38:5239 se převede na něco jako http://192.168.1.1:4000/udp/239.239.3.38:5239."
 
 #. help: Advanced - udpxyHost
 msgctxt "#30682"
 msgid "The hostname or ip address of the multicast relay (udpxy) on the local network."
-msgstr "Název hostitele nebo ip adresa multicast relay (udpxy) v místní síti."
+msgstr "Název hostitele nebo IP adresa multicastového relé (udpxy) v místní síti."
 
 #. help: Advanced - udpxyPort
 msgctxt "#30683"
 msgid "The port of the multicast relay (udpxy) on the local network."
-msgstr "Port přenosu vícesměrového vysílání (udpxy) v místní síti."
+msgstr "Port multicastového relé (udpxy) v místní síti."
 
 #. help: Advanced - useInputstreamAdaptiveforHls
 msgctxt "#30684"
 msgid "Use inputstream.adaptive instead of ffmpeg's libavformat for m3u8 (HLS) streams."
-msgstr "Pro datové proudy m3u8 (HLS) použijte místo libavformatu ffmpeg soubor inputstream.adaptive."
+msgstr "Použije pro streamy m3u8 (HLS) inputstream.adaptive místo libavformat z FFmpeg."
 
 #. help: Advanced - useFFmpegReconnect
 msgctxt "#30685"
 msgid "Note this can only apply to http/https streams that are processed by libavformat (e.g. M3u8/HLS). Using libavformat can be specified in an M3U file by setting the property `inputstream` as `inputstream.ffmpeg` for kodi's internal implementation or `inputstream.ffmpegdirect` for addon version. I.e. adding the line: `#KODIPROP:inputstream=inputstream.ffmpeg`. If this option is not enabled it can still be enabled per stream/channel by adding a kodi property, i.e.: `#KODIPROP:http-reconnect=true`."
-msgstr "Všimněte si, že to lze použít pouze pro http/https streamy, které jsou zpracovávány pomocí libavformat (např. M3u8/HLS). Použití libavformat lze v souboru M3U specifikovat nastavením vlastnosti `inputstream` jako `inputstream.ffmpeg` pro interní implementaci Kodi nebo `inputstream.ffmpegdirect` pro verzi addonu. Tj. přidáním řádku: `#KODIPROP:inputstream=inputstream.ffmpeg`. Pokud tato možnost není povolena, lze ji přesto povolit pro každý stream/kanál přidáním vlastnosti kodi, tj. řádku: `#KODIPROP:http-reconnect=true`."
+msgstr "Tato volba se může použít pouze pro streamy HTTP/HTTPS zpracovávané pomocí libavformat (např. M3U8/HLS). Použití libavformat lze v souboru M3U určit nastavením vlastnosti `inputstream` na `inputstream.ffmpeg` pro interní implementaci Kodi nebo `inputstream.ffmpegdirect` pro verzi doplňku, tedy přidáním řádku `#KODIPROP:inputstream=inputstream.ffmpeg`. Pokud tato volba není povolena, lze ji stále povolit pro jednotlivý stream/kanál přidáním vlastnosti Kodi, například `#KODIPROP:http-reconnect=true`."
 
 #. help: Advanced - defaultUserAgent
 msgctxt "#30686"
@@ -919,167 +919,167 @@ msgstr "Použijte tohoto User-Agent, pokud není zadán jako vlastnost nebo jako
 #. help: Advanced - defaultInputstream
 msgctxt "#30687"
 msgid "Use this inputsream as the default if there is not one supplied as a property (KODIPROP) of the channel. Use with care as this will disable any use of the addon's default stream inspection behaviour. Note that for `inputstream.ffmpegdirect` if both `mimetype` and `inputstream.ffmpegdirect.manifest_type` are unset stream inspection will still occur if required."
-msgstr "Tento inputsream použijte jako výchozí, pokud není k dispozici jako vlastnost (KODIPROP) kanálu. Používejte opatrně, protože tím zakážete jakékoliv použití výchozího chování kontroly proudu doplňku. Všimněte si, že pro `inputstream.ffmpegdirect`, pokud jsou oba `mimetype` a `inputstream.ffmpegdirect.manifest_type` nenastaveny, bude kontrola proudu stále probíhat, pokud je vyžadována."
+msgstr "Použije tento Inputstream jako výchozí, pokud není zadán jako vlastnost kanálu (KODIPROP). Používejte opatrně, protože tím zakážete jakékoli použití výchozí kontroly streamu doplňku. U `inputstream.ffmpegdirect` bude kontrola streamu v případě potřeby stále probíhat, pokud nejsou nastaveny `mimetype` ani `inputstream.ffmpegdirect.manifest_type`."
 
 #. help: Advanced - defaultMimeType
 msgctxt "#30688"
 msgid "Use this MIME type as the default if there is not one supplied as a property (KODIPROP) of the channel. Use with care as this will disable any use of the addon's default stream inspection behaviour."
-msgstr "Tento typ MIME se použije jako výchozí, pokud není uveden jako vlastnost (KODIPROP) kanálu. Používejte s opatrností, protože to znemožní jakékoli použití výchozího chování doplňku pro kontrolu datových toků."
+msgstr "Použije tento typ MIME jako výchozí, pokud není zadán jako vlastnost kanálu (KODIPROP). Používejte opatrně, protože tím zakážete jakékoli použití výchozí kontroly streamu doplňku."
 
 # empty strings from id 30689 to 30699
 #. help info - Catchup
 #. help-category: Catchup
 msgctxt "#30700"
 msgid "Catchup settings for viewing archived live programmes. Allows the option of 'Play programme' when viewing EPG entry info."
-msgstr "Nastavení Catchup pro sledování archivovaných živých pořadů. Umožňuje volbu 'Přehrát program' při prohlížení informací o záznamu EPG."
+msgstr "Nastavení zpětného zhlédnutí pro sledování archivovaných živých pořadů. Umožňuje volbu „Přehrát pořad“ při zobrazení informací o položce EPG."
 
 #. help: Catchup - enableCatchup
 msgctxt "#30701"
 msgid "Should be enabled if there are channels supporting catchup in your M3U list."
-msgstr "Mělo by být povoleno, pokud jsou v seznamu M3U kanály podporující catchup."
+msgstr "Mělo by být povoleno, pokud jsou v seznamu M3U kanály podporující zpětné zhlédnutí."
 
 #. help: Catchup - catchupQueryFormat
 msgctxt "#30702"
 msgid "A query format string (provider dependent) allowing timestamp information to be appended to a URL to denote when to catchup from. E.g. `&cutv={Y}-{m}-{d}T{H}:{M}:{S}`, which allows year, month, day, hour minute and second to be inserted to give: `&cutv=2019-11-26T22:00:32`. If the M3U entry using has a catchup mode of 'default' or 'append' and a 'catchup-source' tag is provided in the M3U entry this setting will be ignored."
-msgstr "Řetězec formátu dotazu (závisí na poskytovateli) umožňující připojit k adrese URL informaci o časovém razítku, která označuje, odkdy se má dohnat. Např. `&cutv={Y}-{m}-{d}T{H}:{M}:{S}`, který umožňuje vložit rok, měsíc, den, hodinu minutu a vteřinu, aby se uvedl: `&cutv=2019-11-26T22:00:32`. Pokud má používaný záznam M3U režim zachycení 'default' nebo 'append' a v záznamu M3U je uveden tag 'catchup-source', bude toto nastavení ignorováno."
+msgstr "Řetězec formátu dotazu (závislý na poskytovateli), který umožňuje připojit k URL informaci o časovém razítku určující, odkdy se má zpětné zhlédnutí spustit. Např. `&cutv={Y}-{m}-{d}T{H}:{M}:{S}`, který umožňuje vložit rok, měsíc, den, hodinu, minutu a sekundu a získat tak například `&cutv=2019-11-26T22:00:32`. Pokud má použitá položka M3U režim zpětného zhlédnutí default nebo append a obsahuje značku catchup-source, bude toto nastavení ignorováno."
 
 #. help: Catchup - catchupDays
 msgctxt "#30703"
 msgid "A number of days into the past in which it is possible to catchup on a programme. Can be overidden in an M3U entry using a 'catchup-days' tag."
-msgstr "Počet dní do minulosti, kdy je možné zpětný program. Může být nadefinován v záznamu M3U pomocí značky \"catchup-days\"."
+msgstr "Počet dní do minulosti, po které je možné zpětně zhlédnout pořad. Lze přepsat v položce M3U pomocí značky „catchup-days“."
 
 #. help: Catchup - allChannelsCatchupMode
 msgctxt "#30704"
 msgid "If enabled it is assumed that channels support catchup using the selected catchup mode while also obeying the override mode. If required the 'Query format string' and 'Catchup window' number of days will come from the addon settings. If this option is disabled then an M3U entry must have at least a 'catchup=' tag to enable catchup. The options for how to build the catch URL are: [B]Disabled[/B] - Do not assume all channel support catchup; [B]Default[/B] - Use catchup source as the full catchup URL, if there is no catchup source use Append mode; [B]Append[/B] - Append the catchup source to the channel URL, if there is no catchup source using the 'Query format string'; [B]Shift (SIPTV)[/B] - Append the standard SIPTV catchup string to the channel URL; [B]Flussonic[/B] - Build a flussonic URL from the channel URL; [B]Xtream codes[/B] - Build an Xtream codes URL from the channel URL."
-msgstr ""
+msgstr "Pokud je povoleno, předpokládá se, že kanály podporují zpětné zhlédnutí pomocí vybraného režimu zpětného zhlédnutí a zároveň respektují režim přepsání. V případě potřeby se „Řetězec formátu dotazu“ a počet dní pro „Období zpětného zhlédnutí“ převezmou z nastavení doplňku. Pokud je tato volba vypnutá, položka M3U musí pro povolení zpětného zhlédnutí obsahovat alespoň značku „catchup=“. Možnosti sestavení URL zpětného zhlédnutí jsou: [B]Zakázáno[/B] - nepředpokládat, že všechny kanály podporují zpětné zhlédnutí; [B]Výchozí[/B] - použít zdroj zpětného zhlédnutí jako úplnou URL zpětného zhlédnutí; pokud zdroj zpětného zhlédnutí není k dispozici, použít režim Připojit; [B]Připojit[/B] - připojit zdroj zpětného zhlédnutí k URL kanálu; pokud zdroj zpětného zhlédnutí není k dispozici, použít „Řetězec formátu dotazu“; [B]Posun (SIPTV)[/B] - připojit k URL kanálu standardní řetězec zpětného zhlédnutí SIPTV; [B]Flussonic[/B] - sestavit URL Flussonic z URL kanálu; [B]Xtream Codes[/B] - sestavit URL Xtream Codes z URL kanálu."
 
 #. help: Catchup - catchupPlayEpgAsLive
 msgctxt "#30705"
 msgid "When disabled any catchup programme from the past will be played like a video (bounded by start and end times). If enabled, it will instead act like a live stream with timeshift, also allowing the ability to skip back and forward programmes. Note that the only effect this option has on streams that do not support timeshifting is whether or not to apply the before/after buffer."
-msgstr "Pokud je vypnuto, jakýkoli pořad z minulosti se přehraje jako video (ohraničené časem začátku a konce). Pokud je povolen, bude se místo toho chovat jako živý přenos s časovým posunem a umožní také přeskakovat pořady zpět a vpřed. Všimněte si, že jediným vlivem této možnosti na streamy, které nepodporují timeshifting, je to, zda se použije vyrovnávací paměť před/po."
+msgstr "Pokud je vypnuto, každý pořad zpětného zhlédnutí z minulosti se přehraje jako video (ohraničené časem začátku a konce). Pokud je povoleno, bude se místo toho chovat jako živý stream s časovým posunem a umožní také přeskakovat pořady zpět a vpřed. U streamů, které nepodporují časový posun, tato volba ovlivňuje pouze to, zda se použije rezerva před/po."
 
 #. help: Catchup - catchupWatchEpgBeginBuffer
 msgctxt "#30706"
 msgid "The amount of buffer to give before the playback start point of an EPG entry that will be watched as a video."
-msgstr "Velikost vyrovnávací paměti, která má být poskytnuta před počátečním bodem přehrávání položky EPG, která bude sledována jako video."
+msgstr "Velikost rezervy před začátkem přehrávání položky EPG, která se bude sledovat jako video."
 
 #. help: Catchup - catchupWatchEpgEndBuffer
 msgctxt "#30707"
 msgid "The amount of buffer to give after the playback end point of an EPG entry that will be watched as a video."
-msgstr "Velikost vyrovnávací paměti, která má být poskytnuta za koncovým bodem přehrávání položky EPG, která bude sledována jako video."
+msgstr "Velikost rezervy po konci přehrávání položky EPG, která se bude sledovat jako video."
 
 #. help: Catchup - catchupOnlyOnFinishedProgrammes
 msgctxt "#30708"
 msgid "When selected from the EPG the current live programme cannot be watched as catchup until finished."
-msgstr "Při výběru z EPG nelze aktuální živý program sledovat jako catchup, dokud není ukončen."
+msgstr "Při výběru z EPG nelze aktuální živý pořad sledovat zpětně, dokud neskončí."
 
 #. help: Catchup - catchupOverrideMode
 msgctxt "#30709"
 msgid "Set the scope for overriding the catchup mode. Options are: [B]without catchup mode[/B] - Only include channels with no catchup mode set (except legacy SIP [I]timeshift[/I] catchup mode); [B]with catchup mode[/B] - Only include channels with catchup mode set (ignore those without a catchup mode); [B]with and without catchup mode (all channels)[/B] - Include all channels ignoring any catchup mode from the M3U."
-msgstr ""
+msgstr "Nastaví rozsah přepsání režimu zpětného zhlédnutí. Možnosti jsou: [B]bez režimu zpětného zhlédnutí[/B] - zahrnout pouze kanály bez nastaveného režimu zpětného zhlédnutí (kromě staršího režimu zpětného zhlédnutí SIP [I]timeshift[/I]); [B]s režimem zpětného zhlédnutí[/B] - zahrnout pouze kanály s nastaveným režimem zpětného zhlédnutí (ignorovat kanály bez režimu zpětného zhlédnutí); [B]s režimem zpětného zhlédnutí i bez něj (všechny kanály)[/B] - zahrnout všechny kanály a ignorovat režim zpětného zhlédnutí z M3U."
 
 #. help: Catchup - catchupCorrection
 msgctxt "#30710"
 msgid "Adjust the time used for catchup stream URL generation by this value, from -12 hours to +14 hours. Useful for catchup streams which are geo mis-matched to the wrong time. Note that this value can be overridden by values in the M3U file."
-msgstr "O tuto hodnotu upravte čas použitý pro generování adresy URL catchup streamu, a to v rozmezí od -12 hodin do +14 hodin. Užitečné pro catchup streamy, které jsou geograficky špatně přiřazeny k nesprávnému času. Všimněte si, že tuto hodnotu lze přepsat hodnotami v souboru M3U."
+msgstr "Upraví o tuto hodnotu čas použitý pro generování URL streamu zpětného zhlédnutí v rozsahu od -12 do +14 hodin. Užitečné pro streamy zpětného zhlédnutí, které jsou geograficky přiřazené k nesprávnému času. Tuto hodnotu lze přepsat hodnotami v souboru M3U."
 
 # empty strings from id 30710 to 307019
 #. help info - Timeshift
 #. help-category: Timeshift
 msgctxt "#30720"
 msgid "Timeshift settings for pausing/rewinding and fast-forwarding live streams."
-msgstr "Nastavení Timeshift pro pozastavení/přetáčení a rychlé přetáčení živých přenosů."
+msgstr "Nastavení časového posunu pro pozastavení, přetáčení zpět a rychlé přetáčení živých streamů."
 
 #. help: Timeshift - timeshiftEnabled
 msgctxt "#30721"
 msgid "Enable the timeshift feature."
-msgstr "Povolte funkci timeshift."
+msgstr "Povoluje funkci časového posunu."
 
 #. help: Timeshift - timeshiftEnabledHttp
 msgctxt "#30722"
 msgid "Enable the timeshift feature for HTTP based streams. Will only apply to streams that do not select a specific inputstream addon for playback. . The inputstream.ffmpegdirect addon will be used for timeshift."
-msgstr "Povolení funkce timeshift pro streamy založené na protokolu HTTP. Bude se vztahovat pouze na streamy, které nemají pro přehrávání zvolen konkrétní doplněk vstupního proudu. . Pro timeshift bude použit doplněk inputstream.ffmpegdirect."
+msgstr "Povoluje funkci časového posunu pro streamy založené na HTTP. Platí pouze pro streamy, které pro přehrávání nevybírají konkrétní doplněk Inputstream. Pro časový posun se použije doplněk inputstream.ffmpegdirect."
 
 #. help: Timeshift - timeshiftFFmpegdirectSettings
 msgctxt "#30723"
 msgid "Open settings dialog for inputstream.ffmpegdirect for modification of timeshift and other settings."
-msgstr "Otevření dialogu nastavení pro inputstream.ffmpegdirect pro úpravu timeshift a dalších nastavení."
+msgstr "Otevře dialog nastavení inputstream.ffmpegdirect pro úpravu časového posunu a dalších nastavení."
 
 #. help: Timeshift - timeshiftEnabledCustom
 msgctxt "#30724"
 msgid "If a stream_mode property is not specified along with an inputstream.ffmpegdirect property always add it for any supported stream types. Note that this setting has no effect on catchup VOD streams that are not live."
-msgstr "Pokud není vlastnost stream_mode zadána spolu s vlastností inputstream.ffmpegdirect, vždy ji přidejte pro všechny podporované typy proudů. Všimněte si, že toto nastavení nemá žádný vliv na catchup VOD streamy, které nejsou živé."
+msgstr "Pokud není spolu s vlastností inputstream.ffmpegdirect zadána vlastnost stream_mode, vždy ji přidá pro všechny podporované typy streamů. Toto nastavení nemá žádný vliv na VOD streamy zpětného zhlédnutí, které nejsou živé."
 
 #. help: Timeshift - timeshiftEnabledAll
 msgctxt "#30725"
 msgid "Enable the timeshift feature for all streams. Will only apply to streams that do not select a specific inputstream addon for playback. The inputstream.ffmpegdirect addon will be used for timeshift."
-msgstr "Povolte funkci timeshift pro všechny streamy. Bude platit pouze pro streamy, které nemají pro přehrávání zvolen konkrétní doplněk vstupního proudu. Pro timeshift bude použit doplněk inputstream.ffmpegdirect."
+msgstr "Povoluje funkci časového posunu pro všechny streamy. Platí pouze pro streamy, které pro přehrávání nevybírají konkrétní doplněk Inputstream. Pro časový posun se použije doplněk inputstream.ffmpegdirect."
 
 #. help: Timeshift - timeshiftEnabledUdp
 msgctxt "#30726"
 msgid "Enable the timeshift feature for UDP based streams. Will only apply to streams that do not select a specific inputstream addon for playback. The inputstream.ffmpegdirect addon will be used for timeshift."
-msgstr "Povolení funkce timeshift pro streamy založené na protokolu UDP. Bude platit pouze pro streamy, které nemají pro přehrávání zvolen konkrétní doplněk vstupního proudu. Pro timeshift bude použit doplněk inputstream.ffmpegdirect."
+msgstr "Povoluje funkci časového posunu pro streamy založené na UDP. Platí pouze pro streamy, které pro přehrávání nevybírají konkrétní doplněk Inputstream. Pro časový posun se použije doplněk inputstream.ffmpegdirect."
 
 # empty strings from id 30727 to 30739
 #. help info - Other categories continued
 #. help: General - defaultproviderName
 msgctxt "#30740"
 msgid "If provided this value will be used as the provider name if one was not provided in the M3U. It can be used in combination with the provider mapping file which can supply type, icon path, country and language fields."
-msgstr ""
+msgstr "Pokud je tato hodnota zadána, použije se jako název poskytovatele, pokud nebyl uveden v M3U. Lze ji použít společně se souborem mapování poskytovatelů, který může dodat pole typu, cesty k ikoně, země a jazyka."
 
 #. help: General - enableProviderMappings
 msgctxt "#30741"
 msgid "If enabled any provider name read from the M3U or the default provider name will be used to read further metadata from the mapping file. The metadata includes custom name, type, icon path, country and language."
-msgstr ""
+msgstr "Pokud je povoleno, libovolný název poskytovatele načtený z M3U nebo výchozí název poskytovatele se použije k načtení dalších metadat ze souboru mapování. Metadata zahrnují vlastní název, typ, cestu k ikoně, zemi a jazyk."
 
 #. help: General - providerMappingFile
 msgctxt "#30742"
 msgid "The config file to map provider names received from the M3U or the default provider name to custom name, icons etc. The default file is [I]providerMappings.xml[/I]."
-msgstr ""
+msgstr "Konfigurační soubor pro mapování názvů poskytovatelů získaných z M3U nebo výchozího názvu poskytovatele na vlastní název, ikony atd. Výchozí soubor je [I]providerMappings.xml[/I]."
 
 #. help: Groups - groups
 msgctxt "#30743"
 msgid "Settings on customising channel groups."
-msgstr ""
+msgstr "Nastavení přizpůsobení skupin kanálů."
 
 # empty strings from id 30744 to 30799
 #. help info - Media
 #. help-category: Media
 msgctxt "#30800"
 msgid "Settings related to VOD media."
-msgstr ""
+msgstr "Nastavení související s médii VOD."
 
 #. help: Media - mediaGroupByTitle
 msgctxt "#30801"
 msgid "If multiple entries exist with matching titles create a virtual folder to group them together."
-msgstr ""
+msgstr "Pokud existuje více položek se shodnými názvy, vytvoří se virtuální složka, která je seskupí."
 
 #. help: Media - mediaGroupBySeason
 msgctxt "#30802"
 msgid "If multiple entries exist with matching titles create a second virtual folder to group them together by season also if possible."
-msgstr ""
+msgstr "Pokud existuje více položek se shodnými názvy, vytvoří se podle možnosti druhá virtuální složka, která je seskupí také podle sezóny."
 
 #. help: Media - mediaTitleSeasonEpisode
 msgctxt "#30803"
 msgid "Prepend the season and episode numbers to the title."
-msgstr ""
+msgstr "Přidá před název číslo sezóny a epizody."
 
 #. help: Media - mediaVODAsRecordings
 msgctxt "#30804"
 msgid "Show VOD as recordings if enabled. If disabled only M3U entries with media attributes will be shown as recordings."
-msgstr ""
+msgstr "Pokud je povoleno, zobrazí VOD jako nahrávky. Pokud je vypnuto, jako nahrávky se zobrazí pouze položky M3U s atributy médií."
 
 #. label: Media - mediaEnabled
 msgctxt "#30805"
 msgid "If enabled, all IPTV media entries can be shown as PVR recordings. Otherwise, they appear as regular PVR channels."
-msgstr ""
+msgstr "Pokud je povoleno, všechny mediální položky IPTV se mohou zobrazovat jako nahrávky PVR. Jinak se zobrazují jako běžné kanály PVR."
 
 #. label: Media - mediaM3UGroupPath
 msgctxt "#30806"
 msgid "Select how to use the M3U group title in the path. Note that it will only be used if a single group name is provided. The options are: [B]Never[/B] - Never use it; [B]Always append[/B] - Always append it; [B]When no media-dir is present[/B] - Only use the group title of the M3U when no media-dir is provided."
-msgstr ""
+msgstr "Vybere, jak se má v cestě použít název skupiny M3U. Použije se pouze tehdy, pokud je uveden jeden název skupiny. Možnosti jsou: [B]Nikdy[/B] - nikdy jej nepoužívat; [B]Vždy připojit[/B] - vždy jej připojit; [B]Když není uveden atribut media-dir[/B] - použít název skupiny M3U pouze tehdy, když není uveden atribut media-dir."
 
 #. label: Media - mediaForcePlaylist
 msgctxt "#30806"
 msgid "Force the full playlist to be media, regardless of what tags are present.  Since the introduction of multiple instances for PVR add-ons this option can be useful."
-msgstr ""
+msgstr "Považuje celý seznam M3U za média bez ohledu na přítomné značky. Od zavedení více instancí doplňků PVR může být tato volba užitečná."
