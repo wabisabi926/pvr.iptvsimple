@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-07-06 15:50+0000\n"
+"PO-Revision-Date: 2026-07-26 12:16+0000\n"
 "Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech <https://kodi.weblate.cloud/projects/kodi-add-ons-pvr-clients/pvr-iptvsimple/cs_cz/>\n"
 "Language: cs_cz\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.7\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 msgctxt "Addon Summary"
 msgid "Kodi PVR addon for IPTV support."
@@ -23,7 +23,7 @@ msgstr "Doplněk PVR pro podporu IPTV v Kodi."
 
 msgctxt "Addon Description"
 msgid "IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.[CR]    [CR]For documentation visit: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md[CR]    "
-msgstr "Jednoduchý klient PVR pro IPTV podporuje seznamy M3U, streamování živé TV ze zdrojů multicast/unicast, poslech rádiových kanálů a EPG.[CR]    [CR]Dokumentaci najdete na adrese: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md[CR]    "
+msgstr "Jednoduchý klient PVR pro IPTV podporuje seznamy M3U, streamování živé TV ze zdrojů multicast/unicast, poslech rozhlasových kanálů a EPG.[CR]    [CR]Dokumentaci najdete na adrese: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md[CR]    "
 
 msgctxt "Addon Disclaimer"
 msgid "The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects."
@@ -208,7 +208,7 @@ msgstr "Základní URL log kanálů"
 #. label-group: General - Radio Groups
 msgctxt "#30033"
 msgid "Radio Groups"
-msgstr "Rádiové skupiny"
+msgstr "Skupiny rozhlasu"
 
 #. label: General - tvGroupMoade
 msgctxt "#30034"
@@ -218,7 +218,7 @@ msgstr "Režim skupin TV"
 #. label: General - radioGroupMoade
 msgctxt "#30035"
 msgid "Radio group mode"
-msgstr "Režim skupin rádia"
+msgstr "Režim skupin rozhlasu"
 
 #. label-option: Channels - tvGroupmode
 #. label-option: Channels - radioGroupGode
@@ -322,27 +322,27 @@ msgstr "Soubor vlastních televizních skupin"
 #. label: General - oneRadioGroup
 msgctxt "#30055"
 msgid "Radio group 1"
-msgstr "Rádiová skupina 1"
+msgstr "Skupina rozhlasu 1"
 
 #. label: General - twoRadioGroup
 msgctxt "#30056"
 msgid "Radio group 2"
-msgstr "Rádiová skupina 2"
+msgstr "Skupina rozhlasu 2"
 
 #. label: General - threeRadioGroup
 msgctxt "#30057"
 msgid "Radio group 3"
-msgstr "Rádiová skupina 3"
+msgstr "Skupina rozhlasu 3"
 
 #. label: General - fourRadioGroup
 msgctxt "#30058"
 msgid "Radio group 4"
-msgstr "Rádiová skupina 4"
+msgstr "Skupina rozhlasu 4"
 
 #. label: General - fiveRadioGroup
 msgctxt "#30059"
 msgid "Radio group 5"
-msgstr "Rádiová skupina 5"
+msgstr "Skupina rozhlasu 5"
 
 #. label-category: advanced
 msgctxt "#30060"
@@ -407,17 +407,17 @@ msgstr "Výchozí hodnoty kanálů"
 #. label: General - numRadioGroups
 msgctxt "#30072"
 msgid "Number of Radio groups"
-msgstr "Počet rádiových skupin"
+msgstr "Počet skupin rozhlasu"
 
 #. label: Channels - customRadioGroupsFile
 msgctxt "#30073"
 msgid "Custom Radio groups file"
-msgstr "Soubor vlastních skupin rádia"
+msgstr "Soubor vlastních skupin rozhlasu"
 
 #. label: General - radioChannelGroupsOnly
 msgctxt "#30074"
 msgid "Only load Radio channels in groups"
-msgstr "Načítat pouze rádiové kanály ve skupinách"
+msgstr "Načítat pouze rozhlasové kanály ve skupinách"
 
 #. help: Channel Logos - useLogosLocalPathOnly
 msgctxt "#30075"
@@ -648,7 +648,7 @@ msgstr "Televize"
 #. label: Radio
 msgctxt "#30451"
 msgid "Radio"
-msgstr "Rádio"
+msgstr "Rozhlas"
 
 # empty strings from id 30452 to 30499
 #. notification: Inputstreams
@@ -743,7 +743,7 @@ msgstr "Pokud je předchozí volba nastavena na „Některé skupiny“, je tře
 #. help: Channels - radioGroupMode
 msgctxt "#30613"
 msgid "Choose from one of the following three modes: [B]All groups[/B] Load all Radio groups from the M3U file[/B]; [B]Some groups[/B] Only load the groups specified in the next options; [B]Custom groups[/B] Load a set of groups from the M3U file whose names are loaded from an XML file."
-msgstr "Vybere jeden z následujících tří režimů: [B]Všechny skupiny[/B] - načtou se všechny skupiny rádia ze souboru M3U; [B]Některé skupiny[/B] - načtou se pouze skupiny uvedené v následujících volbách; [B]Vlastní skupiny[/B] - načte se sada skupin ze souboru M3U, jejichž názvy jsou načteny ze souboru XML."
+msgstr "Vybere jeden z následujících tří režimů: [B]Všechny skupiny[/B] - načtou se všechny skupiny rozhlasu ze souboru M3U; [B]Některé skupiny[/B] - načtou se pouze skupiny uvedené v následujících volbách; [B]Vlastní skupiny[/B] - načte se sada skupin ze souboru M3U, jejichž názvy jsou načteny ze souboru XML."
 
 #. help: Channels - oneRadioGroup
 #. help: Channels - twoRadioGroup
@@ -752,17 +752,17 @@ msgstr "Vybere jeden z následujících tří režimů: [B]Všechny skupiny[/B] 
 #. help: Channels - fiveRadioGroup
 msgctxt "#30614"
 msgid "If the previous option has been has been set to 'Some groups' you need to specify a Radio group to be fetched from the M3U file. Please not that this is the group name as shown on the group-title attribute (i.e. 'UK (Radio)'). This setting is case-sensitive."
-msgstr "Pokud je předchozí volba nastavena na „Některé skupiny“, je třeba zadat skupinu rádia, která se má načíst ze souboru M3U. Upozorňujeme, že jde o název skupiny uvedený v atributu group-title (např. „UK (Radio)“). Toto nastavení rozlišuje velikost písmen."
+msgstr "Pokud je předchozí volba nastavena na „Některé skupiny“, je třeba zadat skupinu rozhlasu, která se má načíst ze souboru M3U. Upozorňujeme, že jde o název skupiny uvedený v atributu group-title (např. „UK (Radio)“). Toto nastavení rozlišuje velikost písmen."
 
 #. help: Channels - customTvGroupsFile
 msgctxt "#30615"
 msgid "The file used to load the custom TV groups. The default file is `customTVGroups-example.xml`."
-msgstr "Soubor použitý k načtení vlastních skupin rádia. Výchozí soubor je „customRadioGroups-example.xml“."
+msgstr "Soubor použitý k načtení vlastních skupin TV. Výchozí soubor je „customRadioGroups-example.xml“."
 
 #. help: Channels - customRadioGroupsFile
 msgctxt "#30616"
 msgid "The file used to load the custom Radio groups. The default file is `customRadioGroups-example.xml`."
-msgstr "Soubor použitý k načtení vlastních skupin rádií. Výchozí soubor je `customRadioGroups-example.xml`."
+msgstr "Soubor použitý k načtení vlastních skupin rozhlasu. Výchozí soubor je `customRadioGroups-example.xml`."
 
 #. help: Channels - numTvGroups
 msgctxt "#30617"
@@ -772,12 +772,12 @@ msgstr "Počet skupin TV, které se načtou, když je vybrán režim `Některé 
 #. help: Channels - numRadioGroups
 msgctxt "#30618"
 msgid "The number of Radio groups to load when `Some groups` is the selected mode. Up to 5 can be chosen. If more than 5 are required the 'Custom groups'  mode should be used instead."
-msgstr "Počet skupin rádia, které se načtou, když je vybrán režim `Některé skupiny`. Lze vybrat až pět skupin. Pokud je potřeba více než pět skupin, měl by se místo toho použít režim „Vlastní skupiny“."
+msgstr "Počet skupin rozhlasu, které se načtou, když je vybrán režim `Některé skupiny`. Lze vybrat až pět skupin. Pokud je potřeba více než pět skupin, měl by se místo toho použít režim „Vlastní skupiny“."
 
 #. help: General - radioChannelGroupsOnly
 msgctxt "#30619"
 msgid "Only Radio channels that belong to groups (i.e. have a [B]group-title[/B] attribute) will be loaded from the M3U file."
-msgstr "Ze souboru M3U se načtou pouze rádiové kanály, které patří do skupin (tj. mají atribut [B]group-title[/B])."
+msgstr "Ze souboru M3U se načtou pouze rozhlasové kanály, které patří do skupin (tj. mají atribut [B]group-title[/B])."
 
 #. help info - EPG Settings
 #. help-category: EPG Settings
